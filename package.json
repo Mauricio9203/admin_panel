@@ -1,0 +1,70 @@
+{
+  "name": "panel-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.4",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "@mui/x-data-grid": "^6.11.1",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@shadcn/ui": "^0.0.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.8.3",
+    "blob-util": "^2.0.2",
+    "datatables.net": "^1.13.6",
+    "gridjs": "^6.0.6",
+    "helmet": "^7.0.0",
+    "jquery": "^3.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-highlight-words": "^0.20.0",
+    "react-json-prettify": "^0.2.0",
+    "react-json-view-lite": "^0.9.8",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "react-table": "^7.8.0",
+    "recharts": "^2.7.3",
+    "redux": "^4.2.1",
+    "styled-components": "^5.3.11",
+    "sweetalert2": "^11.7.27",
+    "web-vitals": "^2.1.4"
+  },
+  "homepage": "https://Mauricio9203.github.io/admin_panel",
+    "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -b gh-pages"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+
+  
+}

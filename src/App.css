@@ -1,0 +1,56 @@
+.fadeIn {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  .visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  body {
+    background-image: url('https://wallpapercosmos.com/w/full/8/d/7/1209987-3840x2160-desktop-4k-glow-in-the-dark-background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+/* Estilos por defecto */
+.MuiDataGrid-filterInput {
+  width: 100%;
+}
+
+/* Estilos responsivos para pantallas más pequeñas */
+@media (max-width: 600px) {
+  .MuiDataGrid-filterInput {
+    width: auto;
+  }
+}
+
+.custom-pagination {
+  .ant-pagination {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.contenedorTabla {
+  max-width: var(--max-width);
+}
+
+
+/* estilo visualizador de imagentes */
+.zoomable-image {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.zoomable-image:hover {
+  transform: scale(1.05); /* Aplica un pequeño zoom hacia adelante */
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5); /* Agrega una sombra blanca */
+}
+
